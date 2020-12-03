@@ -1,5 +1,8 @@
 /** @format */
-
 export default function Home() {
-	return <>Hello world</>;
+	return (
+		<div>
+			<h1>welcome to my home</h1>
+		</div>
+	);
 }
