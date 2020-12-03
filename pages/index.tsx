@@ -10,12 +10,30 @@ export default function Home() {
 					src='https://kit.fontawesome.com/e2169f0192.js'
 					crossOrigin='anonymous'></script>
 			</Head>
-			<button className='add-btn'>
-				<i className='fas fa-plus'></i> Add Note
-			</button>
+			<div className='container-header'>
+				<p></p>
+				<button className='add-btn'>
+					<i className='fas fa-plus'></i> Add Note
+				</button>
+			</div>
 
 			<div className='notes-container'>
 				<Note />
+				<Note />
+				<Note />
+				<Note />
+				<Note />
+				<Note />
+				<Note />
+				<Note />
+				<Note />
+				<Note />
+				<Note />
+				<Note />
+				<Note />
+				<Note />
+				<Note />
+
 			</div>
 		</div>
 	);
