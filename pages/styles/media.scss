@@ -1,0 +1,46 @@
+/** @format */
+@media (max-width: 1440px) {
+	.container {
+		.notes-container {
+			.note-box {
+				width: 25%;
+				height: 300px;
+			}
+		}
+	}
+}
+
+@media (max-width: 1024px) {
+	.container {
+		.notes-container {
+			margin: 1rem 0;
+
+			.note-box {
+				width: 33%;
+				height: 300px;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		.notes-container {
+			.note-box {
+				width: 48%;
+				height: 300px;
+			}
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		.notes-container {
+			.note-box {
+				width: auto;
+				height: 300px;
+			}
+		}
+	}
+}
